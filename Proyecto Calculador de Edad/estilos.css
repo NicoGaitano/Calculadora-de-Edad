@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(to left, rgb(96, 165, 250), rgb(52, 211, 153));
+    font-family: 'Comic Neue', cursive;
+
+
+}
+h1, div , strong , .boton_fecha{
+    color: white;
+    text-align: center;
+
+}
+
+
+.input_fecha{
+    width: 30%;
+}
+
+
+.contenedor_mensaje{
+    font-size: 150%;
+    margin-top: 5%;
+}
+
+.boton_fecha{
+    background-color: rgb(28, 121, 59);
+}
