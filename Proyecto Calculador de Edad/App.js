@@ -95,7 +95,7 @@ if (diaNacimiento && mesNacimientos && anioUsuario) {
 mesesTranscurridos -= inicio.getMonth();
 mesesTranscurridos += fin.getMonth();
 mesesTranscurridos <= 0 ? 0 : mesesTranscurridos;
-contenedorDos.innerHTML  = "<strong>El tiempo transcurrido es : "+"Dias:"+" "+diasTranscurridos+" "+ "Meses:"+" "+mesesTranscurridos+"</strong>"
+contenedorDos.innerHTML  = "<strong> Tiempo transcurrido es : "+"Dias:"+" "+diasTranscurridos+" "+ "Meses:"+" "+mesesTranscurridos+"</strong>"
 }
     }
    
