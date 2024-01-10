@@ -1,4 +1,8 @@
-# Calculadora-de-Edad
+# Calculadora de Edad
+
+Tecnologias Utilizadas : HTML5, CSS3, JavaScript.
+
+Deploy : https://calculadora-de-edad-7gpq.vercel.app/
 
 El proyecto "Calculadora de Edad" conciste en calcular la edad de nacimento del usuario y los dias y el año transcurridos hasta la fecha de hoy.
 
