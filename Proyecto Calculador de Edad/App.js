@@ -30,7 +30,7 @@ let diaDiferencia
     let diaRestantes = diaDelmes - diaDiferencia
     let mesesPosterioresDiasPosteriores = ((mesHoy - mesNacimientos) - 1)  +  12
      let anioPosterior = (year - anioUsuario) - 1
-    contenedor.innerHTML = "<strong>Tu edad :"+diaRestantes+""+"Dias"+ " "+mesesPosterioresDiasPosteriores +" "+" "+"Meses"+ anioPosterior+"Años"+ " "+" "+"</strong>"
+    contenedor.innerHTML = "<strong>Tu edad es :"+diaRestantes+""+"Dias"+ " "+mesesPosterioresDiasPosteriores +" "+" "+"Meses"+ anioPosterior+"Años"+ " "+" "+"</strong>"
 
   }
   if (diaNacimiento > diaHoy && mesNacimientos < mesHoy) {
@@ -39,7 +39,7 @@ let diaDiferencia
     let  diaRestantes = diaDelmes - diaAnterior
     let mesDiferencias = (mesHoy - mesNacimientos) - 1
     let anioAnterior = year - anioUsuario
-    contenedor.innerHTML = "<strong>Tu edad :"+diaRestantes+"Dias"+" "+mesDiferencias+"Meses"+" "+anioAnterior+"Años"+"</strong>" 
+    contenedor.innerHTML = "<strong>Tu edad es :"+diaRestantes+"Dias"+" "+mesDiferencias+"Meses"+" "+anioAnterior+"Años"+"</strong>" 
  }
  
  
@@ -47,7 +47,7 @@ let diaDiferencia
     diaDiferencia = diaHoy - diaNacimiento
     let mesesPosteriores  = ((mesHoy - mesNacimientos))  +  12  
      let anioPosterior = (year - anioUsuario) - 1
-    contenedor.innerHTML = "<strong>Tu edad :"+diaDiferencia+"Dias"+" "+mesesPosteriores +"Meses"+ " "+ anioPosterior+"Años"+" "+"</strong>"
+    contenedor.innerHTML = "<strong>Tu edad es:"+diaDiferencia+"Dias"+" "+mesesPosteriores +"Meses"+ " "+ anioPosterior+"Años"+" "+"</strong>"
   }
   
   if (diaNacimiento > diaHoy && mesNacimientos === mesHoy) {
@@ -56,19 +56,19 @@ let diaDiferencia
     let diaRestantes = diaDelmes - diaDiferencia
     let mesesIgualesDiasPosteriores = ((mesHoy - mesNacimientos) - 1)  +  12
      let anioPosterior = (year - anioUsuario) - 1
-    contenedor.innerHTML = "<strong>Tu edad :"+diaRestantes+"Dias"+" "+mesesIgualesDiasPosteriores +"Meses"+" "+ anioPosterior+"Años"+" "+"</strong>"
+    contenedor.innerHTML = "<strong>Tu edad es:"+diaRestantes+"Dias"+" "+mesesIgualesDiasPosteriores +"Meses"+" "+ anioPosterior+"Años"+" "+"</strong>"
   }
   if (diaNacimiento < diaHoy && mesNacimientos === mesHoy) {
     let diaAnterior = diaHoy - diaNacimiento
     let anioAnterior = year - anioUsuario
-    contenedor.innerHTML = "<strong>Tu edad :"+"Dias"+ " "+diaAnterior + "Años"+" "+anioAnterior+"</strong>" 
+    contenedor.innerHTML = "<strong>Tu edad es :"+"Dias"+ " "+diaAnterior + "Años"+" "+anioAnterior+"</strong>" 
     
   }
   if (diaNacimiento < diaHoy && mesNacimientos < mesHoy) {
     let diaAnterior = diaHoy - diaNacimiento
     let mesNacimientosMenor = mesHoy - mesNacimientos
     let anioAnterior = year - anioUsuario
-    contenedor.innerHTML = "<strong>Tu edad :"+diaAnterior +"Dias"+ " "+mesNacimientosMenor+"Meses"+ " "+anioAnterior+"Años"+"</strong>" 
+    contenedor.innerHTML = "<strong>Tu edad es :"+diaAnterior +"Dias"+ " "+mesNacimientosMenor+"Meses"+ " "+anioAnterior+"Años"+"</strong>" 
   }
 
 
@@ -79,13 +79,13 @@ let diaDiferencia
   if (diaHoy === diaNacimiento && mesNacimientos < mesHoy) {
     let diaYmesIguales = year - anioUsuario
     let mesesPosteriorDiasIguales = mesHoy - mesNacimientos
-    contenedor.innerHTML = "<strong>Tu edad :"+mesesPosteriorDiasIguales+"Meses"+" "+""+diaYmesIguales+" "+"Años "+"</strong>" 
+    contenedor.innerHTML = "<strong>Tu edad  es:"+mesesPosteriorDiasIguales+"Meses"+" "+""+diaYmesIguales+" "+"Años "+"</strong>" 
   } 
 
   if (diaHoy === diaNacimiento && mesNacimientos > mesHoy) {
     let diaYmesIguales = ( year - anioUsuario) - 1
     let mesesAnteriorDiasIguales = ((mesHoy - mesNacimientos))  +  12
-    contenedor.innerHTML = "<strong>Tu edad :"+diaYmesIguales+"Años,"+mesesAnteriorDiasIguales+"meses,"+"</strong>" 
+    contenedor.innerHTML = "<strong>Tu edad es :"+diaYmesIguales+"Años,"+mesesAnteriorDiasIguales+"meses,"+"</strong>" 
   } 
 
 if (diaNacimiento && mesNacimientos && anioUsuario) {
